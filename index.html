@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<!-- Abel Mansilla Felipe -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Flex</title>
+</head>
+<body>
+    <header>
+        <h1>Ejercicio de ejemplo con la propiedad Flex</h1>
+    </header>    
+    <nav>
+        <div><a href="#flex-grow">Flex-Grow</a></div>
+        <div><a href="#flex-shrink">Flex-Shrink</a></div>
+        <div><a href="#flex-wrap">Flex-Wrap</a></div>
+        <div><a href="#flex-gap">Gap</a></div>
+        <div><a href="#flex-direction">Flex-Direction</a></div>
+        <div><a href="#align-self">Align-Self</a></div>
+    </nav>
+    <main>
+        <!-- Flex-Grow -->
+        <h2 id="flex-grow">Flex-Grow</h2>
+        <p>
+            Con esta propiedad vamos a hacer que la caja que lo lleve ocupe un mayor tamaño.
+        </p>
+        <div class="contenedor">
+            <div>Fundacion Loyola</div>
+            <div id="caja1">Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+        <!-- Flex-Shrink -->
+        <h2 id="flex-shrink">Flex-Shrink</h2>
+        <p>
+            Con esta propiedad vamos a reducir el tamñano de los elementos para la caja quepa en su contenedor.<br>
+            En este caso le aplicamos las propiedas a la primera y segunda caja con lo que el resto de cajas ocuparan el espacio
+            sobrante.
+        </p>
+        <div class="contenedor">
+            <div id="caja2">Fundacion Loyola</div>
+            <div id="caja3">Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+        <!-- Flex-Wrap -->
+        <h2 id="flex-wrap">Flex-Wrap</h2>
+        <p>
+            Con esta propiedad vamos a hacer que cada elemento pueda ocupar mas de una linea si asi fuese necesario.
+        </p>
+        <div class="contenedor caja4">
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+        <!-- Flex-gap -->
+        <h2 id="flex-gap">Gap</h2>
+        <p>
+            A continuación vamos a aplicar la propiedad gap, con lo que queremos conseguir que se distribuya el espacio entre los flex
+             de las cajas.
+        </p>
+        <div class="contenedor caja5">
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+        <!-- Flex-Direction -->
+        <h2 id="flex-direction">Flex-Direction</h2>
+        <p>
+            En este caso vamos a aplicar la propiedad direction para cambiar el orden de las cajas, por lo que el ultimo elemento ahora aparecerá
+            como el primero y viceversa.
+        </p> 
+        <div class="contenedor caja6">
+            <div>Fundacion Loyola</div>
+            <div>Igancio de Loyola</div>
+            <div>San Jose</div>
+            <div>Virgen de Guadalupe</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+        <!-- Align-Self -->
+        <h2 id="align-self">Align-Self</h2>
+        <p>
+            Ahora con la propiedad align-self vamos a determinar el alineamiento de la caja seleccionada.
+        </p> 
+        <div class="contenedor">
+            <div id="caja7">Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+            <div>Fundacion Loyola</div>
+        </div>
+        <a href="#"><span>Volver</span></a>
+    </main>
+</body>
+</html>

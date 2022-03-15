@@ -1,0 +1,105 @@
+/*Abel Mansilla Felipe*/
+
+body{
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: lightgrey;
+}
+
+a{
+    text-decoration: none;
+}
+
+span{
+    color: brown;
+    border: 2px solid yellow;
+    background-color: orange;
+}
+
+header{
+    background-color:black;
+}
+
+h1{
+    margin: 0 auto;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+}
+
+nav div{
+    flex-grow: 1;
+    display: flex;
+}
+
+nav a{
+    color:cyan;
+    font-size: 1.2em;
+    width: 100%;
+    text-align: center;
+    padding: 2% 0%;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(216, 75, 75);
+}
+main{
+    margin-top: 60px;
+}
+.contenedor{
+    display: flex;
+    width: 1260px;
+}
+
+.contenedor div{
+    background-color: rgb(148, 142, 142);
+    padding: 25px;
+    margin:30px 10px;
+    flex-basis: 315px;
+}
+
+/* Propiedad Flex-Grow */
+#caja1{
+    background-color: azure;
+    flex-grow: 1;
+}
+
+/* Propiedad Flex-Shrink */
+#caja2{
+    flex-shrink: 2;
+    background-color: azure;
+}
+#caja3{
+    flex-shrink: 2;
+    background-color: azure;
+}
+
+/* Propiedad Flex-Wrap */
+.caja4{
+    flex-wrap: wrap;
+}
+
+/* Propiedades gap */
+.caja5{
+    gap: 60px
+}
+
+/* Propiedades flex-direction */
+.caja6{
+    flex-direction: row-reverse;
+}
+
+/* Propiedades align-self */
+#caja7{
+    align-self: auto;
+    background-color: azure;
+}
